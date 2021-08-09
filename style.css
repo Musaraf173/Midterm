@@ -40,3 +40,6 @@
   border-radius:2em;
   padding:0.5em 1.5em;
 }
+.animate__animated.animate__rubberBand {
+  --animate-duration: 4s;
+}
