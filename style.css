@@ -1,0 +1,42 @@
+.featured-services .icon-box {
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    background: #F0FFF0;
+    box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+    border-radius: 8px;
+    z-index: 1;
+  }
+
+  .featured-services .icon-box-primary {
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+    border-radius: 10px;
+    z-index: 1;
+  }
+  
+  .featured-services .title {
+    font-weight: 550;
+    margin-bottom: 15px;
+    font-size: 25px;
+  }
+
+  .featured-services .description {
+    font-size: 15px;
+    line-height: 0.5em;
+    margin-bottom: 0;
+  }
+
+  body{
+    font-family: roboto, arial, helvetica, sans-serif;
+  }
+.navbar-nav li{
+    font-size:20px;
+}
+.btn{
+  border-radius:2em;
+  padding:0.5em 1.5em;
+}
