@@ -10,11 +10,12 @@
       padding: 60px 0;
     }
   </style>
+  <link href="" rel="stylesheet">
 </head>
 <body>
 
   <!-- navbar -->
-  <nav class="navbar navbar-expand-md navbar-light pt-5 pb-4">
+  <nav class="navbar navbar-expand-md navbar-light pt-5 pb-4" style="background-color: #caedd2;">
     <div class="container-xxl">
       <!-- navbar brand / title -->
       <a class="navbar-brand" href="#intro">
@@ -26,6 +27,7 @@
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+
       <!-- navbar links -->
       <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
         <ul class="navbar-nav">
@@ -42,16 +44,16 @@
             <a class="nav-link" href="#blog">Blog</a>
           </li>
           <li class="nav-item ms-2 d-none d-md-inline">
-            <a class="btn btn-secondary" href="#pricing">Sing in</a>
+            <a class="btn btn-secondary" href="#singIn" style="background-color: #109146;">Sing in</a>
           </li>
-
+          
         </ul>
       </div>
     </div>
   </nav>
 
   <!-- main image & intro text -->
-  <section id="intro">
+  <section id="intro" style="background-color: #caedd2;">
     <div class="container-lg">
       <div class="row g-4 justify-content-center align-items-center">
         <div class="col-md-5 text-center text-md-start">
@@ -60,16 +62,58 @@
             <div class="display-6">any schedule</b></div>
           </h1>
           <p class="lead my-4 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Varius blandit quam netus</p>
-          <a href="#pricing" class="btn btn-secondary btn-lg">Get Started</a>
+          <a href="#pricing" class="btn btn-secondary btn-lg" style="background-color: #109146;" >Get Started</a>
         </div>
         <div class="col-md-5 text-center d-none d-md-block">
-          <img src="./Photos/Illustration.png" class="img-fluid" alt="ebook">
+          <img src="./Photos/Illustration.png" class="img-fluid" alt="eSchool">
         </div>
       </div>
     </div>
   </section>
 
+  
+  <section id="featured-services" class="featured-services">
+    <div class="container" data-aos="fade-up">
 
+      <div class="row">
+        <div class="col-sm-3 text-center" >
+          <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+            <div><a class="navbar-brand" href="#home"><img src="./Photos/book.png" width="60" height="60" class="img-fluid" alt="E-School"></a></div><br>
+            <h4 class="title">1500+ Topic</h4>
+            <p class="description">Learn Anything</p>
+          </div>
+        </div>
+
+          <div class="col-sm-3 text-center" >
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+              <div><a class="navbar-brand" href="#home"><img src="./Photos/Student.png" width="60" height="60" class="img-fluid" alt="E-School"></a></div><br>
+              <h4 class="title">1800+ Students</h4>
+              <p class="description">Learn Anything</p>
+            </div>
+          </div>
+
+            <div class="col-sm-3 text-center" >
+              <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+                <div><a class="navbar-brand" href="#home"><img src="./Photos/Test.png" width="60" height="60" class="img-fluid" alt="E-School"></a></div><br>
+                <h4 class="title">9K+ Test Taken</h4>
+                <p class="description">Learn Anything</p>
+              </div>
+            </div>
+
+              <div class="col-sm-3 text-center" >
+                <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+                  <div><a class="navbar-brand" href="#home"><img src="./Photos/Students.png" width="60" height="60" class="img-fluid" alt="E-School"></a></div><br>
+                  <h4 class="title">2000+ Student</h4>
+                  <p class="description">Learn Anything</p>
+                </div>
+              </div>
+
+      </div>
+
+    </div>
+  </section>
+  
+  
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>
 </html>
